@@ -1,0 +1,8 @@
+data/cache*/
+data/*.parquet
+# ckpt/ 是交付物（best.pt + config + vocab），随仓库提交
+src/__pycache__/
+eval/__pycache__/
+# eval/result.json 是官方提交物（自检结果），不忽略
+*.pyc
+.venv/

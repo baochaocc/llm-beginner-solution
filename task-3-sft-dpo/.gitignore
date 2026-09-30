@@ -1,0 +1,13 @@
+data/cache/
+data/**/*.parquet
+data/**/*.jsonl
+data/**/*.json
+data/**/*.zip
+# ckpt/ 里的 LoRA adapter 是交付物；test_lora 是单测残留，不提交
+ckpt/test_lora/
+models/
+src/__pycache__/
+eval/__pycache__/
+# eval/result.json 是官方提交物（自检结果），不忽略
+*.pyc
+.venv/

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "vocab_size": 4252,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 4,
+    "d_ff": 512,
+    "num_classes": 2,
+    "max_len": 128,
+    "pad_id": 0,
+    "dropout": 0.1
+  }
+}
