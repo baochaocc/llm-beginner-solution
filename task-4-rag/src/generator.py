@@ -123,5 +123,6 @@ def get_generator():
     if http.available():
         print("使用 OpenAI 兼容本地服务：", BASE_URL, "| model:", MODEL)
         return http
-    print("本地 LLM 服务不可达，回退到任务三 SFT 模型（Qwen2.5-0.5B + LoRA）作为生成器")
-    return SFTGenerator()
+    gen = SFTGenerator()
+    print(f"本地 LLM 服务不可达，回退到本地 transformers 生成器：{gen.name}")
+    return gen

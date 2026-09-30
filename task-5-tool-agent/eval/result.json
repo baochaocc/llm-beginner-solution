@@ -6,7 +6,7 @@
       "calculator": true,
       "python_sandbox": true,
       "file_search": true,
-      "wiki": "skip(网络不可用？): 无法访问维基百科（网络受限）: https://zh.wikipedia.org/w/api.php: ConnectTimeout; https://en.wikipedia.org/w/api.php: ConnectTimeout"
+      "wiki": "skip(网络不可用？): 无法访问维基百科（网络受限）: https://zh.wikipedia.org/w/api.php: ConnectionError; https://en.wikipedia.org/w/api.php: ConnectTimeout"
     },
     "network_skipped": [
       "wiki"
